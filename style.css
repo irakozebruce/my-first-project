@@ -1,0 +1,16 @@
+input{
+background-color: #72A4D2;
+margin-top: 1em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+color: white;
+size: 10;
+font-size: 16px;
+}
+
+textarea{
+    color: rgb(104, 71, 9);
+    font-weight:bold;
+    background: #727272;
+    
+}

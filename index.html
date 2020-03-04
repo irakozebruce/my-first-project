@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Page 2</title>
+</head>
+<body>
+
+    
+    <div align="center">
+    <h1>my second will display here !! </h1>
+    <p>this is my first paragraph Lorem ipsum dolor
+         sit amet consectetur adipisicing elit.<br/> 
+         Non laudantium accusamus eius facere praesentium 
+         necessitatibus error pariatur recusandae molestiae<br/>
+          officiis est vero ab deserunt facilis,
+         unde fugiat molestias consequatur totam.<br>
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/>
+             Provident aliquam quidem quis labore corrupti debitis <br/>
+             perspiciatis assumenda dolore sequi, eos quo esse sit tenetur! 
+             Expedita, laborum! Fugit,<br/>
+             fuga? Laudantium, asperiores?
+             
+    </p>
+    <hr/>
+ <a href="/IHM2020/page3.html"><img src="/IHM2020/bg-raw.jpg" alt="image" width="200px" height="200px" /></a>
+<hr/>
+
+<button type="button" onclick="alert('hello world')" > click me</button>
+<button type="button" onclick="document.getElementById('demo').innerHTML=Date()"> click me to display Date and Time.</button>
+<p id="demo"></p>
+<FORM METHOD=post ACTION="/cgi-bin/example.cgi">
+<INPUT type="text" size="10"maxlength="30">
+<INPUT type="Submit"VALUE="Submit">
+</FORM>
+<FORM METHOD=post ACTION="/cgi-bin/example.cgi">
+
+
+    <form action="mail@domain.com">
+         name:<input name="Name" value="" size="10"> <br>
+         email: <input name="Email" value="" size="10"> <br>
+         <CENTER><input type="submit"></CENTER>
+    </form>
+
+    <form method="post Action">
+        <p>enter your comment:<br></p>
+
+        <textarea wrap="virtual" name="comments" rows="10" cols="100 MAXLENGTH=200"  ></textarea>
+<br/>
+
+<input type="submit" value="SEND">
+<input type="reset" value="Clear">
+
+    </form>
+
+
+    <p>you can use the height and width attributes to specify the size of the iframes:</p>
+
+    <iframe src="/page3.html" height="300" width="500"></iframe><br/>
+    <input type="submit" value="RUNGIKA"> 
+    <hr/>
+
+
+    <marquee bgcolor="000080" scrollamount = '2' direction ="up"
+     loop= 'true' width="35%"  onmousemove="this.stop()" onmouseout="this.start()">
+    <center>
+        <font color = "#FF4422" width="200px" height="450px">
+            THIS IS A COOL <br/>
+            TO MAKE  YOUR TEXT.........
+            THIS IS A COOL <br/>
+            TO MAKE  YOUR TEXT.........
+            THIS IS A COOL <br/>
+            TO MAKE  YOUR TEXT.........
+        </font>
+    </center>
+    </marquee> 
+    <hr/>
+
+    <form method="post Action">
+        <center>
+          select an option:
+         
+                  <select name="" id="">
+                      <option selected>HTML</option>
+                      <option>CSS</option>
+                      <option>JAVASCRIPT</option>
+                      <option>PYHTON</option>
+                      <option>JAVA</option>
+                      <option>C#</option>
+                  </select> <br/>
+        
+                  <input type = "submit" value="submit">
+        </center>
+    </form>
+
+<br/>
+    <form method="post Action">
+        select an option:
+        <br/>
+        <input type="radio" name="option"> HTML
+        <input type="radio" name="option">CSS
+        <input type="radio" name="option">JAVASCRIPT
+        <input type="radio" name="option">PYTHON
+        <input type="radio" name="option">C#
+<br/>
+
+    </form>
+
+    <form>
+        select an option: <br/>
+        <input type="checkbox" name="select"> HTML
+        <input type="checkbox" name="select">CSS
+        <input type="checkbox" name="select">JAVASCRIPT
+        <input type="checkbox" name="select">PYTHON
+        <input type="checkbox" name="select">C#
+    </form>
+
+    <hr/>
+
+    <h2>show a color Picker</h2>
+    <form action="">
+        <label for="favcolor">Select your favorite color</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000" >
+        <input type="submit" value="Submit">
+
+    </form>
+
+<hr>
+
+<h2>Date field</h2>
+<form action="">
+    <label for="birthday">Birthday</label>
+    <input type="date" id="birthday" name="birthday"  >
+    <input type="submit" value="Submit">
+
+</form>
+<hr>
+
+<h2>Email Field</h2>
+<form action="">
+    <label for="email">Enter your Email</label>
+    <input type="email" id="email" name="email"  >
+    <input type="submit" value="Submit">
+
+</form>
+<hr>
+
+<h1>The input multiple attributes</h1>
+
+<form action="">
+    <label for="files">select Files</label>
+    <input type="file" id="files" name="files" multiple ><br><br>   
+    <input type="submit" value="Submit">
+
+</form>
+
+<hr>
+
+<h2>Number field</h2>
+
+<form action="">
+    <label for="quantity">Quantity(between 1 and 5):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5" >
+    <input type="submit" value="Submit">
+
+</form>
+
+  
+</body>
+</html>
